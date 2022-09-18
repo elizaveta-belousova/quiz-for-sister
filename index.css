@@ -46,6 +46,7 @@ body * {
 
 .questions_container {
   flex-grow: 1;
+  background-color: rgb(55, 91, 170);
 }
 
 .question {
@@ -53,7 +54,6 @@ body * {
   width: 80%;
   margin: 0 auto;
   padding: 32px;
-  background-color: rgb(55, 91, 170);
 }
 
 .question img {
