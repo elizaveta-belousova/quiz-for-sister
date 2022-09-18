@@ -56,6 +56,11 @@ body * {
   background-color: rgb(55, 91, 170);
 }
 
+.question img {
+  width: 100%;
+  height: auto;
+}
+
 .question.active {
   display: block;
 }
@@ -75,6 +80,10 @@ body * {
   cursor: pointer;
   border: none;
   border-radius: 10px;
+}
+
+.question button {
+  background-color: #f0f0f0;
 }
 
 .question button:hover {
