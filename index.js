@@ -41,7 +41,7 @@ function moveNext(isSuccess) {
   if (currentQuestionIndex === questions.length - 1) {
     if (isSuccess) {
       questions[currentQuestionIndex].style.display = "none";
-      document.querySelector("#success").style.display = "block";
+      document.querySelector("#success").style.display = "flex";
       document.body.style.overflow = "hidden";
     } else {
       const finalQuestion = questions[questions.length - 1];

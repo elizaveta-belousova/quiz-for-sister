@@ -108,13 +108,16 @@ body * {
 }
 
 .lightbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: absolute;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   top: 0;
   left: 0;
   z-index: 2;
-  background-color: #fff;
+  background-color:rgb(55, 91, 170);
 }
 
 .lightbox_content {
@@ -127,4 +130,18 @@ body * {
   .question, .question .question_wrapper {
     width: 100%;
   }
+}
+
+.lightbox .prompt {
+  width: 80%;
+}
+
+.prompt img {
+  width: 100%;
+  height: auto;
+}
+
+.prompt .lightbox_content {
+  color: #fff;
+  padding-top:10px
 }
